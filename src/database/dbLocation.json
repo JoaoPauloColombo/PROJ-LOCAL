@@ -1,0 +1,18 @@
+
+[
+    {
+        "nome": "São Paulo",
+        "sigla": "SP",
+        "bairro":"Lapa"
+    },
+    {
+        "nome": "Rio de Janeiro",
+        "sigla": "RJ",
+        "bairro": "Copacabana"
+    },
+    {
+        "nome": " Brasilia",
+        "sigla": "DF",
+        "bairro": "Aguas Claras"
+    }
+]
