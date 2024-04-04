@@ -9,6 +9,8 @@ router.get('/', locationController.getHome);
 router.get('/contato', locationController.getContact); 
 router.get('/home', locationController.getHome); 
 router.get('/location', locationController.getAllLocation); 
+router.get('/localizacao', locationController.getLocalizacao); 
+
 
 
 module.exports = router;

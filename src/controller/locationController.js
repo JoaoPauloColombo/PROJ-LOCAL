@@ -9,9 +9,17 @@ exports.getAllLocation = async (req, res) => {
     }
 };
 
-exports.getContact = async (res, req) => {
+exports.getContact = async (req, res) => {
     try {
         res.render("contact")
+    } catch (err) {
+        res.status(500).json({ error: err.toString() });
+    }
+}
+
+exports.getLocalizacao = async (req, res) => {
+    try {
+        res.render("localizacao")
     } catch (err) {
         res.status(500).json({ error: err.toString() });
     }
